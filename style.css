@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "newAmstardam";
+    src: url(fonts/NewAmsterdam-Regular.ttf);
+
+}
+@font-face {
+    font-family:"robotoMono" ;
+    src: url(fonts/RobotoMono.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+#Logo-Text{
+    font-family: "newAmstardam";
+    letter-spacing: 2px;
+    display: inline;
+    /*background: linear-gradient(90deg, #a602d8  , #ff00dd  );*/
+    background-color: aliceblue;
+    color:transparent;
+    background-clip: text;
+    z-index: 1;
+    padding-left: 1%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 20%;
+}
+
+#Site-Logo{
+   width: 75px;
+   height: 75px;
+   margin : 10px;
+   padding-left: 5%;
+}
+
+#top-nav{
+    font-family: "robotoMono";
+    overflow: hidden;
+    text-align: end;
+    padding-left: 40%; 
+}
+
+#top-nav a {
+    background-color: aliceblue;
+    font-size: 13px;
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px;
+}
+    
+#top-nav a:hover{
+    color: rgb(255, 217, 0);
+}
+
+#main-side{
+    width:100%;
+    height:615px;
+    display: flex;
+    background: url('./resources/image1.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
