@@ -69,7 +69,7 @@ body{
     margin: 0;
     padding: 0;
     width:100%;
-    height:615px;
+    height: 91.5vh;
     display: flex;
     background: url('./resources/image1.png') no-repeat;
     background-size: cover;
@@ -81,7 +81,7 @@ body{
     margin: 0px;
     padding: 0px; 
     width: 20%;
-    height: 60%;
+    height: 350px;
     justify-content: center;
     align-items: center;
     box-sizing: content-box;
