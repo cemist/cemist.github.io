@@ -11,8 +11,8 @@
 
 
 <body>
-<script src="index.js"></script>
-
+  
+  
   <div id="header">
     <image src="/resources/logo.png" alt="Levent Deneyim" id="Site-Logo"> </image>
     <h1 id="Logo-Text">LEVENT DENEYİM</h1>
@@ -22,23 +22,27 @@
       <a href="howtoworks.html">Nasıl Çalışır?</a>
       <a href="iletisim.html">İletişim</a>
     </div>
+    <div id ="Mobile-Container">
+      <i class='bx bx-menu'></i>
+    </div>
   </div>
+ 
   
   <div id="main-side">
-     
     <div id="login-wrap">
-      <form action="">
+      <form action="index.html">
        <h1>Giriş Yap</h1>
-        <div class="input-box"> <i class='bx bxs-user'></i> <input type="text" placeholder="Kullanıcı Adı" required></div>
-        <div class="input-box"> <i class='bx bxs-lock-alt'></i> <input type="password" placeholder="Şifre" required></div>
+        <div class="input-box"> <i class='bx bxs-user'></i> <input id="username" type="text" placeholder="Kullanıcı Adı" required></div>
+        <div class="input-box"> <i class='bx bxs-lock-alt'></i> <input id="password" type="password" placeholder="Şifre" required></div>
         <div id="remember-me"><label><input type="checkbox">Beni hatırla</label></div>
-        <button type="submit" id="btn">Giriş Yap</button>
+        <h5 id="infotext"> </h5>
+        <button type="button" id="btn">Giriş Yap</button>
       </form>
     </div>
-      
   </div>
 
-
+  <script src="index.js"></script>
+  <script></script>
 
 </body>
 
