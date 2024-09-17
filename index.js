@@ -11,14 +11,17 @@ function login(){
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify(data), 
         
-    })
+    })  
     .then(response=>response.json())
     .then(data=>{
         console.log(data)
         if(data.status === 'succes'){
             alert("login succesfull");
             document.getElementById("infotext").textContent = "Giriş Bilgileri Doğru";
-            window.location.href = "iletisim.html"
+            document.cookie = `username = ${username}`;
+            document.cookie = `password = ${password}`; 
+            window.location.href = "exams.html";
+           
            
         }
         else{
