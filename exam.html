@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width,initial-scale=1.0">
+    <title>Levent Deneyim</title>
+    <link rel="stylesheet" href="exam.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<body>
+      
+    <div id="header">
+        <image src="/resources/logo.png" alt="Levent Deneyim" id="Site-Logo"> </image>
+        <h1 id="Logo-Text">LEVENT DENEYİM</h1>
+        <div id="top-nav">
+          <a href="index.html">Giriş Yap</a>
+          <a href="calendar.html">Sınav Takvimi</a>
+          <a href="howtoworks.html">Nasıl Çalışır?</a>
+          <a href="iletisim.html">İletişim</a>
+          <a><i class='bx bx-user-circle'></i></a>
+          <a></a>
+        </div>
+        <div id ="Mobile-Container">
+          <i class='bx bx-menu'></i>
+        </div>
+      </div>
+
+      <div id="main-side">
+        <div class="timer">
+          <div id="navigation-buttons">
+            <button id="prev-btn">Önceki Soru</button>
+            <button id="next-btn">Sonraki Soru</button>
+        </div>
+         <div id="timer-box">
+            <h1 id="timer-header">Kalan Süre</h1>
+            <div id="box">
+              <div id="clock">
+                <div id="front-clock">
+                  <div id="minutes">00</div>
+                  <p>dakika</p>
+                </div>
+              </div>
+              <div id="clock">
+                <div id="front-clock">
+                  <div id="seconds">00</div>
+                  <p>saniye</p>
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+        <div id="photo-side">
+            <img id="questionimage" src="" alt="soru">
+        </div>
+        <div id="button-side">
+            <button id="button-a">A</button>
+            <button id="button-b">B</button>
+            <button id="button-c">C</button>
+            <button id="button-d">D</button>
+            <button id="button-e">E</button>
+        </div>
+    </div>
+
+      <script src="exam.js"></script>
+</body>
+
+
+</html>

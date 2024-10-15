@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "newAmstardam";
+    src: url(fonts/NewAmsterdam-Regular.ttf);
+
+}
+@font-face {
+    font-family:"robotoMono" ;
+    src: url(fonts/RobotoMono.ttf);
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url(fonts/Ubuntu.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+#Logo-Text{
+    font-family: "newAmstardam";
+    letter-spacing: 2px;
+    background-color: aliceblue;
+    color:transparent;
+    background-clip: text;
+    z-index: 1;
+    padding-left: 1%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 20%;
+}
+
+#Site-Logo{
+    width: 75px;
+    height: 75px;
+    margin : 10px;
+    padding-left: 5%;
+ }
+
+ 
+#top-nav{
+    font-family: "robotoMono";
+    overflow: hidden;
+    text-align: end;
+    padding-left: 40%; 
+}
+
+#top-nav a {
+    background-color: aliceblue;
+    font-size: 13px;
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px;
+}
+#top-nav a:hover{
+    color: rgb(255, 217, 0);
+}
+#top-nav i {
+    color: white;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(5px);
+}
+
+#main-side{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 0px;
+    display: inline-flex;
+}
+
+
+.master-class{
+    background-color: white;
+    width: 25vh;
+    height: 32vh;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(206, 200, 209) 50%, rgba(243,90,255,1) 100%);
+    border-radius: 20px;
+    margin-top: 7.5%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.master-class #photo-box img{
+   width: 22vh;
+   height: 29vh;
+   border-radius: 10px;
+   margin-top: 6.5%;
+}
+
+.master-class #exam-name{
+    color: white;
+    font-size: 36px;
+    font-family: "ubuntu";
+    margin-top: 20px;
+}
+
+
+.master-class #exam-name:hover{
+    color: red;
+    font-size: 36px;
+    font-family: "ubuntu";
+    margin-top: 20px;
+}

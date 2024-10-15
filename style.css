@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "newAmstardam";
+    src: url(fonts/NewAmsterdam-Regular.ttf);
+
+}
+@font-face {
+    font-family:"robotoMono" ;
+    src: url(fonts/RobotoMono.ttf);
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url(fonts/Ubuntu.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+#Logo-Text{
+    font-family: "newAmstardam";
+    letter-spacing: 2px;
+    background-color: aliceblue;
+    color:transparent;
+    background-clip: text;
+    z-index: 1;
+    padding-left: 1%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 20%;
+}
+
+#Site-Logo{
+   width: 75px;
+   height: 75px;
+   margin : 10px;
+   padding-left: 5%;
+}
+
+#top-nav{
+    font-family: "robotoMono";
+    overflow: hidden;
+    text-align: end;
+    padding-left: 45%; 
+}
+
+#top-nav a {
+    background-color: aliceblue;
+    font-size: 13px;
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px;
+}
+    
+#top-nav a:hover{
+    color: rgb(255, 217, 0);
+}
+
+#Mobile-Container {
+    color: white;
+    position: absolute;
+    text-align: end;
+    font-size: 40px;
+    right: 40px;
+    display: none;
+}
+
+
+#main-side{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 91.5vh;
+    display: flex;
+    background: url('./resources/image1.png') no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-wrap{
+    margin: 0px;
+    padding: 0px; 
+    width: 20%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    background: transparent;
+    color: white;
+    font-family: "ubuntu";
+    border-radius: 10px;
+    padding: 38px 40px;
+    border: 3px solid rgba(255, 255, 255, .2)
+}
+
+
+
+@media only screen and (max-width:480px){
+    #Mobile-Container {
+        display: flex;
+        background-color:black;
+        right: 10px;  
+    }
+    #Mobile-Container i {
+        font-size: 36px;
+        color: white;
+    }
+    #top-nav{
+        display: none;
+    }
+    
+    #login-wrap{
+        margin: 0px;
+        padding: 0px; 
+        width: 80%;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: content-box;
+        background: transparent;
+        color: white;
+        font-family: "ubuntu";
+        border-radius: 10px;
+        padding: 16px 20px;
+        border: 3px solid rgba(255, 255, 255, .2)
+    }
+}
+
+#login-wrap h1{
+  text-align: center;
+  font-size: 36px;
+}   
+
+#login-wrap .input-box{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+}
+
+#login-wrap input{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding: 20px 45px 20px 20px;
+    box-sizing: border-box;
+    background: transparent;
+    outline: none;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 16px;
+    color :#fff;
+}
+
+.input-box input::placeholder{
+    color:#fff;
+}
+.input-box input::-ms-reveal{
+    filter: invert(100);
+}
+
+.input-box i {
+    position:absolute;
+    right: 20px;
+    top:60%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+#login-wrap  #remember-me{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 14.5px;
+     margin: -15px 0px 15px;
+     padding-left: 10px;
+}
+
+#remember-me label {
+    accent-color: #fff;
+    padding: 0px;
+    margin:0px;
+}
+#remember-me input{  
+    width: 20px;
+    height: 12px;
+    accent-color: #fff;
+    padding: 0px;
+    margin:0px;
+}
+
+#login-wrap #btn {
+    width: 100%;
+    height: 45px;
+    background : #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor:pointer;
+    font-size: 20px;
+    color: #333 ;
+    font-weight: 600;
+}
+
+
+
+
+
