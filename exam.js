@@ -91,10 +91,6 @@ function get_time_info() {
             }
             
 
-            console.log(current_time);
-            console.log(finish_time);
-            console.log(start_time);
-            console.log(remaining_time);
          
             if (current_time < start_time) {
                 document.getElementById('timer-header').innerText = "Sınav henüz başlamadı!";

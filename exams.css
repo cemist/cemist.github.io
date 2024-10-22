@@ -111,3 +111,33 @@ body{
     font-family: "ubuntu";
     margin-top: 20px;
 }
+
+.master-class h1{
+    color: white;
+    font-size: 15px;
+    font-family: "ubuntu";
+    margin-top: 15px;
+}
+
+
+.exam-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.exam-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.exam-button.inactive {
+    background-color: #f44336;
+    color: white;
+    cursor: not-allowed;
+}
